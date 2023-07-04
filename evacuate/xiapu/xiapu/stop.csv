@@ -1,0 +1,9 @@
+stopinfo_ended;stopinfo_id;stopinfo_initialContainers;stopinfo_initialPersons;stopinfo_lane;stopinfo_loadedContainers;stopinfo_loadedPersons;stopinfo_parking;stopinfo_pos;stopinfo_started;stopinfo_type;stopinfo_unloadedContainers;stopinfo_unloadedPersons
+5466.00;dongchong_bus0;0;0;-51691749#4_0;0;0;1;143.77;5428.00;bus;0;0
+5467.00;dongchong_bus1;0;0;-51691749#4_0;0;0;1;143.78;5442.00;bus;0;0
+5468.00;dongchong_bus2;0;0;-51691749#4_0;0;0;1;143.78;5448.00;bus;0;0
+5469.00;dongchong_bus3;0;0;-51691749#4_0;0;0;1;143.76;5454.00;bus;0;0
+5470.00;dongchong_bus4;0;0;-51691749#4_0;0;0;1;143.79;5459.00;bus;0;0
+5475.00;dongchong_bus5;0;0;-51691749#4_0;0;0;1;143.78;5465.00;bus;0;0
+10747.00;dongchong_bus5;0;0;1163782197#2_0;0;0;1;1620.92;10737.00;bus;0;0
+16078.00;dongchong_bus5;0;0;-51691749#4_0;0;0;1;143.78;16068.00;bus;0;0

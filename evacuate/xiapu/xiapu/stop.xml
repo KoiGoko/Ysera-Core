@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-07-03 10:44:33 by Eclipse SUMO sumo Version 1.18.0
+<!-- generated on 2023-07-05 10:45:07 by Eclipse SUMO sumo Version 1.18.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="osm.net.xml.gz"/>
-        <route-files value="osm.bus.trips.xml"/>
-        <additional-files value="osm.poly.xml.gz"/>
+        <net-file value=".\osm.net.xml.gz"/>
+        <route-files value=".\osm.bus.trips.xml"/>
+        <additional-files value=".\osm.poly.xml.gz"/>
     </input>
 
     <output>
-        <stop-output value="stop.xml"/>
+        <netstate-dump value=".\dump.xml"/>
+        <fcd-output value=".\fcd.xml"/>
+        <full-output value=".\full.xml"/>
+        <vtk-output value=".\vtk.xml"/>
+        <amitran-output value=".\amitran.xml"/>
+        <stop-output value=".\stop.xml"/>
     </output>
 
     <processing>
@@ -29,7 +34,7 @@
     </report>
 
     <gui_only>
-        <gui-settings-file value="osm.view.xml"/>
+        <gui-settings-file value=".\osm.view.xml"/>
     </gui_only>
 
 </configuration>

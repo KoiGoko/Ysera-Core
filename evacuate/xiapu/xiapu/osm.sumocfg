@@ -27,7 +27,8 @@
     </report>
 
     <output>
-        <stop-output value="stop.xml"/>
+        <fcd-output.geo value="true"/>
+        <fcd-output value="fcd_1.xml"/>
     </output>
 
     <gui_only>

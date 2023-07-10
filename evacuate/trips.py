@@ -3,7 +3,7 @@
 @time: 2023/6/7 10:15
 @desc:
 ''''''"""
-import custom_input as input
+import input as input
 import xml.etree.ElementTree as ET
 import os
 import glob
@@ -139,4 +139,3 @@ for route in routes:
     for country, info in country_infos.items():
         if route[0] == country:
             generate_xml(route, info, trips_name)
-

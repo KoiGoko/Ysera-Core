@@ -1,0 +1,69 @@
+﻿#撤离信息输入
+
+#安置点
+settlements:
+  霞浦第十八中学: '977360507#0'
+  霞浦县第六小学: '-51691749#4'
+  霞浦县第四小学: '715792677'
+  霞浦县第一中学: '1172895350#7'
+  福宁中学: '543863877#1'
+  霞浦县实验幼儿园: '-777284203'
+  福建宏翔高级中学: '-778378294'
+  福建霞浦第六中学: '1172895341#1'
+  霞浦县人民政府: '544267905#1'
+
+#撤离点
+evacuates:
+  dongchong: '1163782197#2'
+  beibi: '296185646#0'
+  beigang: '1068471749#0'
+  houshan: '1068471755#2'
+  panqian: '1068471755#2'
+  xiahu: '229540619#2'
+  jinxie: '1164353535'
+  liujin: '-474258045'
+  changchun: '978380505#6'
+  xiaxi: '-1163559853#0'
+  wuqu: '778098717#0'
+  changmen: '-1164370191'
+  xiapunuclear: '978658158#0'
+  tingxiaxi: '-1163559854#0'
+  waihaihu: '778098710#1'
+  qiuzhugang: '588559167#3'
+  yuyang: '978380509#0'
+  shangqi: '-1163801077'
+
+#撤离人数
+population:
+  dongchong: 7500
+  beibi: 9201
+  beigang: 6412
+  houshan: 7689
+  panqian: 5234
+  xiahu: 9421
+  jinxie: 6875
+  liujin: 8101
+  changchun: 5789
+  xiaxi: 9145
+  wuqu: 6578
+  changmen: 7643
+  xiapunuclear: 5903
+  tingxiaxi: 8532
+  waihaihu: 6890
+  qiuzhugang: 7261
+  yuyang: 6247
+  shangqi: 5198
+
+
+
+
+
+
+
+
+
+
+
+
+
+

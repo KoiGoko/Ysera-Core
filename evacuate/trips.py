@@ -3,7 +3,7 @@
 @time: 2023/6/7 10:15
 @desc:
 ''''''"""
-import input as input
+import pre_process as inp
 import xml.etree.ElementTree as ET
 import os
 import glob
@@ -11,7 +11,7 @@ import random
 import copy
 
 # 撤离村镇
-countrys = input.countrys
+countrys = inp.countrys
 
 # 撤离村镇信息
 country_infos = {}

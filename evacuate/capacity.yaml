@@ -1,0 +1,12 @@
+﻿#车辆信息输入
+
+#车辆容量
+vehicle_capacity:
+  bus: 50
+  private: 5
+  motorcycle: 2
+  tricycle: 3
+  taxi: 4
+
+#每一百人拥有的汽车数量
+per_vehicle: 1

@@ -19,4 +19,4 @@ typhoon_direction: 90
 typhoon_radius: 100
 
 #特殊时间段
-special_time: '12:00'
+special_time: true

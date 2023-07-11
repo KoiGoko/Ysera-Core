@@ -9,6 +9,12 @@ import pandas as pd
 
 stop_data = pd.read_csv(r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\stop.csv', sep=';')
 
+dump_data = pd.read_csv(r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\dump.csv', sep=';')
+
+stop_data = pd.read_csv(r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\stop.csv', sep=';')
+
+xml_to_csv_cmd = f"python xml_to_csv.py -i {sample_dir} -o {sample_dir}"
+
 grouped = stop_data.groupby('stopinfo_id')['stopinfo_ended'].apply(list)
 
 grouped = grouped.reset_index()

@@ -1,0 +1,5 @@
+#仿真结果文件
+result_path: 'evacuate\'
+dump_path: '{result_path}dump.yaml'
+fcd_path: '{result_path}fcd.xml'
+stop_path: '{result_path}stop.xml'

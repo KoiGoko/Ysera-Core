@@ -1,38 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- generated on 2023-06-03 12:41:24 by Eclipse SUMO sumo Version 1.17.0
--->
-
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="osm.net.xml.gz"/>
-        <route-files value="osm.bus.trips.xml"/>
-        <additional-files value="osm.poly.xml.gz"/>
+        <net-file value="osm.net.xml.gz" />
+        <route-files value="osm.xiapu.bus.trips.xml, osm.xiapu.motorcycle.trips.xml, osm.xiapu.private.trips.xml, osm.xiapu.public.bus.trips.xml, osm.xiapu.public.moped.trips.xml, osm.xiapu.public.taxi.trips.xml, osm.xiapu.taxi.trips.xml" />
+        <additional-files value="osm.poly.xml.gz" />
     </input>
 
     <processing>
-        <ignore-route-errors value="true"/>
+        <ignore-route-errors value="true" />
     </processing>
 
     <routing>
-        <device.rerouting.adaptation-steps value="18"/>
-        <device.rerouting.adaptation-interval value="10"/>
+        <device.rerouting.adaptation-steps value="18" />
+        <device.rerouting.adaptation-interval value="10" />
     </routing>
 
     <report>
-        <verbose value="true"/>
-        <duration-log.statistics value="true"/>
-        <no-step-log value="true"/>
+        <verbose value="true" />
+        <duration-log.statistics value="true" />
+        <no-step-log value="true" />
     </report>
 
     <output>
-        <fcd-output.geo value="true"/>
-        <fcd-output value="fcd_1.xml"/>
+        <fcd-output.geo value="true" />
+        <fcd-output value="fcd.xml" />
+        <stop-output value="stop.xml" />
+
     </output>
 
     <gui_only>
-        <gui-settings-file value="osm.view.xml"/>
+        <gui-settings-file value="osm.view.xml" />
     </gui_only>
 
 </configuration>

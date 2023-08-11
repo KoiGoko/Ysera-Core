@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd"><vType id="bus" vClass="bus" /><vType id="private" vClass="private" /><vType id="motorcycle" vClass="motorcycle" /><vType id="tricycle" vClass="tricycle" /></routes>

@@ -1,0 +1,20 @@
+2023-07-23 01:01:04,330 ERROR: �г��ļ�д�����'NoneType' object cannot be interpreted as an integer
+2023-07-23 01:01:22,943 ERROR: �г��ļ�д�����'NoneType' object cannot be interpreted as an integer
+2023-07-23 01:02:20,668 ERROR: �г��ļ�д�����'NoneType' object cannot be interpreted as an integer
+2023-07-24 17:10:14,874 ERROR: �г��ļ������쳣��'moped'
+2023-07-24 19:52:28,235 ERROR: �г��ļ������쳣��'moped'
+2023-07-24 19:55:52,581 ERROR: �г��ļ�д�����cannot access local variable 'trips_array' where it is not associated with a value
+2023-07-24 19:56:53,815 ERROR: �г��ļ�д�����cannot access local variable 'trips_array' where it is not associated with a value
+2023-07-24 20:07:49,524 ERROR: �г��ļ�д�����'to'
+2023-07-25 09:42:24,607 ERROR: �г��ļ������쳣��[Errno 2] No such file or directory: 'E:\\Ysera-Core\\evacuate\\xiapu\\xiapu\\osm.xiapu.motorcycle.trips.xml'
+2023-07-25 09:48:15,681 ERROR: �г��ļ������쳣��[Errno 2] No such file or directory: 'E:\\Ysera-Core\\evacuate\\xiapu\\xiapu\\osm.xiapu.private.trips.xml'
+2023-07-25 09:48:37,353 ERROR: �г��ļ������쳣��[Errno 2] No such file or directory: 'E:\\Ysera-Core\\evacuate\\xiapu\\xiapu\\osm.xiapu.private.trips.xml'
+2023-07-25 09:52:18,656 ERROR: �г��ļ������쳣��[Errno 2] No such file or directory: 'E:\\Ysera-Core\\evacuate\\xiapu\\xiapu\\osm.xiapu.taxi.trips.xml'
+2023-07-25 09:53:32,690 ERROR: �г��ļ������쳣��[Errno 2] No such file or directory: 'E:\\Ysera-Core\\evacuate\\xiapu\\xiapu\\osm.xiapu.taxi.trips.xml'
+2023-08-06 10:26:42,958 ERROR: �г��ļ�д�����cannot serialize 1 (type int)
+2023-08-06 11:00:35,625 ERROR: �г��ļ�д�����module 'numpy' has no attribute 'arrange'
+2023-08-10 16:14:07,340 ERROR: �г��ļ�д�����[Errno 2] No such file or directory: 'evacuate.yaml'
+2023-08-10 16:17:56,461 ERROR: �г��ļ�д��ory: '���[Errno 2] No such file or directevacuate.yaml'
+2023-08-10 16:20:52,990 ERROR: �г��ļ�д�����[Errno 2] No such file or directory: 'evacuate.yaml'
+2023-08-10 16:21:18,089 ERROR: �г��ļ�д�����[Errno 2] No such file or directory: 'evacuate.yaml'
+2023-08-10 16:27:32,847 ERROR: �г��ļ�д�����[Errno 2] No such file or directory: 'evacuate.yaml'

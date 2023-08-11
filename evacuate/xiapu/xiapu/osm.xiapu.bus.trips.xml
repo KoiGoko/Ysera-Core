@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <vType id="bus" vClass="bus" maxSpeed="60"/>
+  <trip id="liujin_bus_0" type="bus" depart="80" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_1" type="bus" depart="81" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_2" type="bus" depart="82" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_3" type="bus" depart="83" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_4" type="bus" depart="84" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_5" type="bus" depart="85" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_6" type="bus" depart="86" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_7" type="bus" depart="87" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_8" type="bus" depart="88" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_9" type="bus" depart="89" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_10" type="bus" depart="90" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_11" type="bus" depart="91" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_12" type="bus" depart="92" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_13" type="bus" depart="93" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_14" type="bus" depart="94" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_15" type="bus" depart="95" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_16" type="bus" depart="96" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_17" type="bus" depart="97" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_18" type="bus" depart="98" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_19" type="bus" depart="99" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_20" type="bus" depart="100" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_21" type="bus" depart="101" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_22" type="bus" depart="102" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_23" type="bus" depart="103" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_24" type="bus" depart="104" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_25" type="bus" depart="105" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_26" type="bus" depart="106" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_27" type="bus" depart="107" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_28" type="bus" depart="108" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_29" type="bus" depart="109" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_30" type="bus" depart="110" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_31" type="bus" depart="111" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_32" type="bus" depart="112" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_33" type="bus" depart="113" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_34" type="bus" depart="114" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_35" type="bus" depart="115" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_36" type="bus" depart="116" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_37" type="bus" depart="117" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_38" type="bus" depart="118" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_39" type="bus" depart="119" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_40" type="bus" depart="120" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_41" type="bus" depart="121" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_42" type="bus" depart="122" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_43" type="bus" depart="123" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_44" type="bus" depart="124" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_45" type="bus" depart="125" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_46" type="bus" depart="126" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_47" type="bus" depart="127" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_48" type="bus" depart="128" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_49" type="bus" depart="129" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_50" type="bus" depart="130" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_51" type="bus" depart="131" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_52" type="bus" depart="132" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_53" type="bus" depart="133" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_54" type="bus" depart="134" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_55" type="bus" depart="135" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_56" type="bus" depart="136" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_57" type="bus" depart="137" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_58" type="bus" depart="138" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_59" type="bus" depart="139" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_60" type="bus" depart="140" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_61" type="bus" depart="141" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_62" type="bus" depart="142" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_63" type="bus" depart="143" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_64" type="bus" depart="144" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_65" type="bus" depart="145" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_66" type="bus" depart="146" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_67" type="bus" depart="147" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_68" type="bus" depart="148" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+  <trip id="liujin_bus_69" type="bus" depart="149" departLane="best" from="-474258045" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+  </trip>
+</routes>

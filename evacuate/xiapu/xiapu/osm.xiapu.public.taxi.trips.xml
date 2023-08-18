@@ -1,383 +1,291 @@
 <?xml version="1.0" ?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
   <vType id="public_taxi" vClass="taxi" maxSpeed="80"/>
-  <trip id="xiaofang_taxi_0_dongchong" type="public_taxi" depart="230" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_taxi_0_dongchong" type="public_taxi" depart="44" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_taxi_1_dongchong" type="public_taxi" depart="231" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_taxi_1_dongchong" type="public_taxi" depart="45" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_taxi_2_dongchong" type="public_taxi" depart="232" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_taxi_2_dongchong" type="public_taxi" depart="46" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_taxi_3_dongchong" type="public_taxi" depart="233" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_taxi_3_dongchong" type="public_taxi" depart="47" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_taxi_4_dongchong" type="public_taxi" depart="234" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_taxi_4_dongchong" type="public_taxi" depart="48" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_taxi_5_dongchong" type="public_taxi" depart="235" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_taxi_5_dongchong" type="public_taxi" depart="49" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_taxi_6_dongchong" type="public_taxi" depart="236" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="dianchang_taxi_0_dongchong" type="public_taxi" depart="50" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_7_dongchong" type="public_taxi" depart="237" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_8_dongchong" type="public_taxi" depart="238" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_9_dongchong" type="public_taxi" depart="239" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_10_dongchong" type="public_taxi" depart="240" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_11_dongchong" type="public_taxi" depart="241" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_12_dongchong" type="public_taxi" depart="242" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_13_dongchong" type="public_taxi" depart="243" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_14_dongchong" type="public_taxi" depart="244" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_15_dongchong" type="public_taxi" depart="245" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_16_dongchong" type="public_taxi" depart="246" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_17_dongchong" type="public_taxi" depart="247" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_18_dongchong" type="public_taxi" depart="248" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_19_dongchong" type="public_taxi" depart="249" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_20_dongchong" type="public_taxi" depart="250" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_21_dongchong" type="public_taxi" depart="251" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_22_dongchong" type="public_taxi" depart="252" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_23_dongchong" type="public_taxi" depart="253" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_24_dongchong" type="public_taxi" depart="254" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_25_dongchong" type="public_taxi" depart="255" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_26_dongchong" type="public_taxi" depart="256" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_27_dongchong" type="public_taxi" depart="257" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_28_dongchong" type="public_taxi" depart="258" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_29_dongchong" type="public_taxi" depart="259" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_30_dongchong" type="public_taxi" depart="260" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_31_dongchong" type="public_taxi" depart="261" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_32_dongchong" type="public_taxi" depart="262" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_33_dongchong" type="public_taxi" depart="263" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_34_dongchong" type="public_taxi" depart="264" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_35_dongchong" type="public_taxi" depart="265" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_36_dongchong" type="public_taxi" depart="266" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_37_dongchong" type="public_taxi" depart="267" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_38_dongchong" type="public_taxi" depart="268" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_taxi_39_dongchong" type="public_taxi" depart="269" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_0_dongchong" type="public_taxi" depart="270" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_taxi_1_dongchong" type="public_taxi" depart="271" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_taxi_1_dongchong" type="public_taxi" depart="51" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_taxi_2_dongchong" type="public_taxi" depart="272" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_taxi_2_dongchong" type="public_taxi" depart="52" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_taxi_3_dongchong" type="public_taxi" depart="273" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_taxi_3_dongchong" type="public_taxi" depart="53" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_taxi_4_dongchong" type="public_taxi" depart="274" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_taxi_4_dongchong" type="public_taxi" depart="54" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_taxi_5_dongchong" type="public_taxi" depart="275" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_taxi_5_dongchong" type="public_taxi" depart="55" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_6_dongchong" type="public_taxi" depart="276" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_7_dongchong" type="public_taxi" depart="277" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_8_dongchong" type="public_taxi" depart="278" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_9_dongchong" type="public_taxi" depart="279" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_10_dongchong" type="public_taxi" depart="280" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_11_dongchong" type="public_taxi" depart="281" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_12_dongchong" type="public_taxi" depart="282" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_13_dongchong" type="public_taxi" depart="283" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_14_dongchong" type="public_taxi" depart="284" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_15_dongchong" type="public_taxi" depart="285" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_16_dongchong" type="public_taxi" depart="286" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_17_dongchong" type="public_taxi" depart="287" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_18_dongchong" type="public_taxi" depart="288" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_19_dongchong" type="public_taxi" depart="289" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_20_dongchong" type="public_taxi" depart="290" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_21_dongchong" type="public_taxi" depart="291" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_22_dongchong" type="public_taxi" depart="292" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_23_dongchong" type="public_taxi" depart="293" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_24_dongchong" type="public_taxi" depart="294" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_25_dongchong" type="public_taxi" depart="295" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_26_dongchong" type="public_taxi" depart="296" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_27_dongchong" type="public_taxi" depart="297" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_28_dongchong" type="public_taxi" depart="298" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_29_dongchong" type="public_taxi" depart="299" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_30_dongchong" type="public_taxi" depart="300" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_31_dongchong" type="public_taxi" depart="301" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_32_dongchong" type="public_taxi" depart="302" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_33_dongchong" type="public_taxi" depart="303" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_34_dongchong" type="public_taxi" depart="304" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_35_dongchong" type="public_taxi" depart="305" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_36_dongchong" type="public_taxi" depart="306" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_37_dongchong" type="public_taxi" depart="307" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_38_dongchong" type="public_taxi" depart="308" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_39_dongchong" type="public_taxi" depart="309" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_40_dongchong" type="public_taxi" depart="310" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_41_dongchong" type="public_taxi" depart="311" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_42_dongchong" type="public_taxi" depart="312" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_43_dongchong" type="public_taxi" depart="313" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_44_dongchong" type="public_taxi" depart="314" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_45_dongchong" type="public_taxi" depart="315" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_46_dongchong" type="public_taxi" depart="316" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_47_dongchong" type="public_taxi" depart="317" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_48_dongchong" type="public_taxi" depart="318" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_49_dongchong" type="public_taxi" depart="319" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_50_dongchong" type="public_taxi" depart="320" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_51_dongchong" type="public_taxi" depart="321" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_52_dongchong" type="public_taxi" depart="322" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_53_dongchong" type="public_taxi" depart="323" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_taxi_54_dongchong" type="public_taxi" depart="324" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>

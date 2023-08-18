@@ -5,9 +5,13 @@ import numpy as np
 import subprocess
 import xml.etree.ElementTree as ET
 import os
+import msgpack
+from lxml import etree
 
 __author__ = 'Nan Jia'
 __email__ = 'KoiGoko@outlook.com'
+
+from evacuate.src.utils import input_args
 
 # 结果分析模块
 
@@ -98,8 +102,54 @@ def graph_fcd(xml_path):
     print('done')
 
 
+def read_output_xml():
+    xml_file_path = r'/evacuate/xiapu/xiapu/stop1.xml'
+    tree = etree.parse(xml_file_path, parser=etree.XMLParser(encoding='utf-8'))
+    root = tree.getroot()
+
+    evacuate = input_args(r'D:\Ysera\Ysera-Core\evacuate\cfg', 'evacuate')
+
+    settlements = evacuate['settlements']
+    default_population = evacuate['default_population']
+
+    settles = [x + '_0' for x in settlements.values()]
+
+    print(settles)
+
+    data = []
+    for settle in settles:
+        elements = []
+        elements.extend(root.xpath(f'//stopinfo[@lane="{settle}"]'))
+        print(elements)
+        if len(elements) > 0:
+            for stopinfo in elements:
+                id = stopinfo.get('id')
+                type = stopinfo.get('type')
+                lane = stopinfo.get('lane')
+                pos = stopinfo.get('pos')
+                parking = stopinfo.get('parking')
+
+                print(id, type, lane, pos, parking)
+
+                data.append([id, type, lane, pos, parking])
+
+    pd_data = pd.DataFrame(data, columns=['id', 'type', 'lane', 'pos', 'parking'])
+    print(pd_data)
+
+    # root = tree.getroot()
+    # xml_data = r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\fcd.xml'
+    # binary_data = msgpack.packb(xml_data)
+    #
+    # decoded_data = msgpack.unpackb(binary_data)
+    #
+    # df = pd.DataFrame([decoded_data])
+    # print(df)
+    # print(binary_data)
+
+
 if __name__ == '__main__':
-    graph_fcd(result_path)
-    # pd = input_pandas()
-    # graph_stop(pd)
-    print('结果后处理模块')
+    read_output_xml()
+    # graph_fcd(result_path)
+    # # pd = input_pandas()
+    # # graph_stop(pd)
+    # print('结果后处理模块')

@@ -10,12 +10,12 @@ __email__ = 'KoiGoko@outlook.com'
 
 if __name__ == '__main__':
     # 配置参数路径
-    cfg_path = r'E:\Ysera-Core\evacuate\cfg'
+    cfg_path = r'D:\Ysera\Ysera-Core\evacuate\cfg'
     # 模拟文件路径
-    xml_path = r'E:\Ysera-Core\evacuate\xiapu\xiapu'
+    xml_path = r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu'
 
     #
-    global_init(cfg_path)
+    # global_init(cfg_path)
     ########################################################################################################################
     # 私家车配置初始化
     private.init_private_cfg(cfg_path)
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
     trip_name = ', '.join(trip_name)
 
-    sumo_cfg = r'E:\Ysera-Core\evacuate\xiapu\xiapu'
+    sumo_cfg = r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu'
 
     sumo_cfg = os.path.join(sumo_cfg, 'osm.sumocfg')
 

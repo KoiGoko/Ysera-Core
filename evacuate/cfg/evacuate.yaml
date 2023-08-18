@@ -15,21 +15,21 @@ simulator:
 #标准安置点，安置点一般设置为广场,公园,操场等
 #你可以自己定义安置点，但是必须在模拟的路网当中存在这条路
 settlements:
-  霞浦第十八中学: 977360507#0
-  霞浦县第六小学: -51691749#4
-  霞浦县第四小学: 715792677#0
-  霞浦县第一中学: 1172895350#7
-  福宁中学: 543863877#1
+  霞浦第十八中学: '977360507#0'
+  霞浦县第六小学: '-51691749#4'
+  霞浦县第四小学: '715792677'
+  霞浦县第一中学: '1172895350#7'
+  福宁中学: '543863877#1'
 
 #标准撤离点,撤离点一般设置为村庄,乡镇，核电站等
 #你可以自己定义撤离点，但是必须在模拟的路网当中存在这条路
 evacuates:
-  dongchong: 1163782197#2
-  beibi: 296185646#0
-  beigang: 1068471749#0
-  houshan: 1068471755#2
-  panqian: 1068471755#2
-  xiahu: 229540619#2
+  dongchong: '1163782197#2'
+  beibi: '296185646#0'
+  beigang: '1068471749#0'
+  houshan: '1068471755#2'
+  panqian: '1068471755#2'
+  xiahu: '229540619#2'
   jinxie: '1164353535'
   liujin: '-474258045'
 
@@ -65,36 +65,36 @@ default_population:
 #你可以根据自己的实际模拟情况自己定义撤离点的车辆的类型，车辆类型必须是sumo当中存在的。
 vehicle_number:
   dongchong:
-    private: 80
-    bus: 142
+    private: 5
+    bus: 5
   beibi:
-    private: 80
-    motorcycle: 4401
+    private: 5
+    motorcycle: 5
   beigang:
-    private: 80
-    motorcycle: 80
-    taxi: 80
+    private: 5
+    motorcycle: 5
+    taxi: 5
   houshan:
-    private: 80
-    motorcycle: 80
-    taxi: 80
+    private: 5
+    motorcycle: 5
+    taxi: 5
   panqian:
-    private: 80
-    motorcycle: 80
-    taxi: 80
+    private: 5
+    motorcycle: 5
+    taxi: 5
   xiahu:
-    private: 80
-    motorcycle: 80
-    taxi: 80
+    private: 5
+    motorcycle: 5
+    taxi: 5
   jinxie:
-    private: 80
-    motorcycle: 80
-    taxi: 80
+    private: 5
+    motorcycle: 5
+    taxi: 5
   liujin:
-    private: 80
-    motorcycle: 80
-    taxi: 80
-    bus: 70
+    private: 5
+    motorcycle: 5
+    taxi: 5
+    bus: 5
 evacuation_order:
   dongchong: 1
   beibi: 2
@@ -146,16 +146,16 @@ routes:
 public_routes:
   xiaofang:
     dongchong:
-      bus: 40
-      taxi: 40
+      bus: 6
+      taxi: 6
     beibi:
-      moped: 60
+      moped: 6
   dianchang:
     dongchong:
-      bus: 60
-      taxi: 55
+      bus: 6
+      taxi: 6
     beibi:
-      moped: 50
+      moped: 6
 
 
 #-------------------------------------------------------------------------------#

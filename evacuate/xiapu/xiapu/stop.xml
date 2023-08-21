@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-08-21 09:10:18 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\osm.net.xml.gz"/>
+        <route-files value="D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\osm.xiapu.bus.trips.xml,D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\ osm.xiapu.motorcycle.trips.xml,D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\ osm.xiapu.private.trips.xml,D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\ osm.xiapu.taxi.trips.xml"/>
+        <additional-files value="D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\osm.poly.xml.gz"/>
+    </input>
+
+    <output>
+        <fcd-output value="D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\fcd.xml"/>
+        <fcd-output.geo value="true"/>
+        <stop-output value="D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\stop.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="xiahu_taxi_0" type="taxi" lane="1172895350#7_0" pos="654.27" parking="1" started="3753.00" ended="3754.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_taxi_1" type="taxi" lane="1172895350#7_0" pos="654.27" parking="1" started="4009.00" ended="4010.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_taxi_4" type="taxi" lane="1172895350#7_0" pos="654.29" parking="1" started="4058.00" ended="4059.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_taxi_3" type="taxi" lane="1172895350#7_0" pos="654.29" parking="1" started="4119.00" ended="4120.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_taxi_2" type="taxi" lane="1172895350#7_0" pos="654.27" parking="1" started="4147.00" ended="4148.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_motorcycle_0" type="motorcycle" lane="1172895350#7_0" pos="654.25" parking="1" started="4168.00" ended="4169.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_motorcycle_1" type="motorcycle" lane="1172895350#7_0" pos="654.27" parking="1" started="4597.00" ended="4598.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_private_0" type="private" lane="1172895350#7_0" pos="654.27" parking="1" started="4756.00" ended="4757.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_private_2" type="private" lane="1172895350#7_0" pos="654.28" parking="1" started="4838.00" ended="4839.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_private_1" type="private" lane="1172895350#7_0" pos="654.26" parking="1" started="4862.00" ended="4863.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_private_3" type="private" lane="1172895350#7_0" pos="654.28" parking="1" started="4887.00" ended="4888.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_private_4" type="private" lane="1172895350#7_0" pos="654.29" parking="1" started="4938.00" ended="4939.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_taxi_4" type="taxi" lane="1172895350#7_0" pos="654.28" parking="1" started="4952.00" ended="4953.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_taxi_2" type="taxi" lane="1172895350#7_0" pos="654.26" parking="1" started="4963.00" ended="4964.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_motorcycle_4" type="motorcycle" lane="1172895350#7_0" pos="654.28" parking="1" started="4982.00" ended="4987.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_taxi_1" type="taxi" lane="1172895350#7_0" pos="654.28" parking="1" started="4986.00" ended="4988.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_motorcycle_3" type="motorcycle" lane="1172895350#7_0" pos="654.29" parking="1" started="4995.00" ended="5001.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_taxi_0" type="taxi" lane="1172895350#7_0" pos="654.28" parking="1" started="5000.00" ended="5006.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_taxi_3" type="taxi" lane="1172895350#7_0" pos="654.27" parking="1" started="5005.00" ended="5007.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_motorcycle_0" type="motorcycle" lane="1172895350#7_0" pos="654.28" parking="1" started="5013.00" ended="5014.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_motorcycle_1" type="motorcycle" lane="1172895350#7_0" pos="654.28" parking="1" started="5022.00" ended="5023.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_motorcycle_3" type="motorcycle" lane="977360507#0_0" pos="1136.47" parking="1" started="5037.00" ended="5038.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_taxi_0" type="taxi" lane="-51691749#4_0" pos="143.77" parking="1" started="5039.00" ended="5047.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_motorcycle_1" type="motorcycle" lane="-51691749#4_0" pos="143.78" parking="1" started="5057.00" ended="5058.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_motorcycle_4" type="motorcycle" lane="977360507#0_0" pos="1136.45" parking="1" started="5066.00" ended="5067.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_private_2" type="private" lane="-51691749#4_0" pos="143.79" parking="1" started="5062.00" ended="5068.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_taxi_3" type="taxi" lane="977360507#0_0" pos="1136.44" parking="1" started="5061.00" ended="5068.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_bus_0" type="bus" lane="-51691749#4_0" pos="143.79" parking="1" started="5067.00" ended="5074.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_bus_1" type="bus" lane="-51691749#4_0" pos="143.77" parking="1" started="5033.00" ended="5075.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_bus_2" type="bus" lane="-51691749#4_0" pos="143.78" parking="1" started="5028.00" ended="5076.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_bus_3" type="bus" lane="-51691749#4_0" pos="143.78" parking="1" started="5054.00" ended="5077.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_bus_4" type="bus" lane="-51691749#4_0" pos="143.79" parking="1" started="5046.00" ended="5078.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="xiahu_motorcycle_2" type="motorcycle" lane="1172895350#7_0" pos="654.29" parking="1" started="5077.00" ended="5078.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_taxi_1" type="taxi" lane="-51691749#4_0" pos="143.78" parking="1" started="5083.00" ended="5084.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_taxi_2" type="taxi" lane="-51691749#4_0" pos="143.78" parking="1" started="5073.00" ended="5085.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_motorcycle_1" type="motorcycle" lane="977360507#0_0" pos="1136.47" parking="1" started="5084.00" ended="5085.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_motorcycle_2" type="motorcycle" lane="1172895350#7_0" pos="654.29" parking="1" started="5089.00" ended="5090.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_taxi_0" type="taxi" lane="977360507#0_0" pos="1136.47" parking="1" started="5094.00" ended="5095.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_motorcycle_3" type="motorcycle" lane="-51691749#4_0" pos="143.79" parking="1" started="5102.00" ended="5103.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_taxi_3" type="taxi" lane="-51691749#4_0" pos="143.79" parking="1" started="5097.00" ended="5104.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_taxi_1" type="taxi" lane="977360507#0_0" pos="1136.43" parking="1" started="5106.00" ended="5111.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_taxi_4" type="taxi" lane="977360507#0_0" pos="1136.47" parking="1" started="5110.00" ended="5112.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_private_4" type="private" lane="-51691749#4_0" pos="143.79" parking="1" started="5126.00" ended="5127.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_private_2" type="private" lane="977360507#0_0" pos="1136.46" parking="1" started="5129.00" ended="5135.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_private_3" type="private" lane="977360507#0_0" pos="1136.47" parking="1" started="5134.00" ended="5136.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_private_4" type="private" lane="977360507#0_0" pos="1136.46" parking="1" started="5125.00" ended="5137.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_private_0" type="private" lane="-51691749#4_0" pos="143.78" parking="1" started="5137.00" ended="5138.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_taxi_4" type="taxi" lane="-51691749#4_0" pos="143.79" parking="1" started="5133.00" ended="5139.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_motorcycle_2" type="motorcycle" lane="-51691749#4_0" pos="143.79" parking="1" started="5154.00" ended="5160.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_private_3" type="private" lane="-51691749#4_0" pos="143.77" parking="1" started="5159.00" ended="5161.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_taxi_2" type="taxi" lane="977360507#0_0" pos="1136.47" parking="1" started="5178.00" ended="5179.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_motorcycle_4" type="motorcycle" lane="-51691749#4_0" pos="143.78" parking="1" started="5180.00" ended="5181.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_private_1" type="private" lane="-51691749#4_0" pos="143.77" parking="1" started="5176.00" ended="5182.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="liujin_motorcycle_0" type="motorcycle" lane="-51691749#4_0" pos="143.75" parking="1" started="5185.00" ended="5186.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_motorcycle_0" type="motorcycle" lane="977360507#0_0" pos="1136.45" parking="1" started="5248.00" ended="5249.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_private_1" type="private" lane="977360507#0_0" pos="1136.45" parking="1" started="5259.00" ended="5260.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_private_0" type="private" lane="977360507#0_0" pos="1136.44" parking="1" started="5310.00" ended="5311.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="jinxie_motorcycle_2" type="motorcycle" lane="977360507#0_0" pos="1136.46" parking="1" started="5345.00" ended="5346.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_motorcycle_3" type="motorcycle" lane="1172895350#7_0" pos="654.28" parking="1" started="5474.00" ended="5475.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_private_0" type="private" lane="1172895350#7_0" pos="654.27" parking="1" started="5563.00" ended="5564.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_private_2" type="private" lane="1172895350#7_0" pos="654.28" parking="1" started="5607.00" ended="5608.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_private_1" type="private" lane="1172895350#7_0" pos="654.25" parking="1" started="5650.00" ended="5651.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_motorcycle_2" type="motorcycle" lane="543863877#1_0" pos="210.38" parking="1" started="5674.00" ended="5675.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_private_1" type="private" lane="543863877#1_0" pos="210.36" parking="1" started="5670.00" ended="5676.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_private_3" type="private" lane="1172895350#7_0" pos="654.28" parking="1" started="5677.00" ended="5678.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_private_4" type="private" lane="1172895350#7_0" pos="654.27" parking="1" started="5672.00" ended="5679.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_private_2" type="private" lane="543863877#1_0" pos="210.36" parking="1" started="5755.00" ended="5756.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_private_4" type="private" lane="543863877#1_0" pos="210.37" parking="1" started="5750.00" ended="5757.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_taxi_0" type="taxi" lane="543863877#1_0" pos="210.34" parking="1" started="5739.00" ended="5758.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_taxi_1" type="taxi" lane="543863877#1_0" pos="210.37" parking="1" started="5744.00" ended="5759.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_taxi_2" type="taxi" lane="543863877#1_0" pos="210.35" parking="1" started="5724.00" ended="5760.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_motorcycle_3" type="motorcycle" lane="543863877#1_0" pos="210.35" parking="1" started="5766.00" ended="5771.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_private_3" type="private" lane="543863877#1_0" pos="210.37" parking="1" started="5770.00" ended="5772.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_taxi_3" type="taxi" lane="543863877#1_0" pos="210.38" parking="1" started="5729.00" ended="5773.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_taxi_4" type="taxi" lane="543863877#1_0" pos="210.38" parking="1" started="5735.00" ended="5774.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_motorcycle_4" type="motorcycle" lane="543863877#1_0" pos="210.37" parking="1" started="5785.00" ended="5786.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="houshan_motorcycle_4" type="motorcycle" lane="1172895350#7_0" pos="654.28" parking="1" started="5805.00" ended="5806.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_motorcycle_1" type="motorcycle" lane="-51691749#4_0" pos="143.77" parking="1" started="5823.00" ended="5824.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_motorcycle_0" type="motorcycle" lane="543863877#1_0" pos="210.37" parking="1" started="5819.00" ended="5831.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_motorcycle_1" type="motorcycle" lane="543863877#1_0" pos="210.38" parking="1" started="5830.00" ended="5832.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="panqian_private_0" type="private" lane="543863877#1_0" pos="210.38" parking="1" started="5825.00" ended="5833.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_motorcycle_0" type="motorcycle" lane="-51691749#4_0" pos="143.79" parking="1" started="5835.00" ended="5836.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_motorcycle_2" type="motorcycle" lane="-51691749#4_0" pos="143.76" parking="1" started="5872.00" ended="5873.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_private_1" type="private" lane="-51691749#4_0" pos="143.79" parking="1" started="6389.00" ended="6390.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_private_4" type="private" lane="-51691749#4_0" pos="143.77" parking="1" started="6409.00" ended="6410.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_taxi_0" type="taxi" lane="715792677_0" pos="281.34" parking="1" started="6399.00" ended="6424.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_motorcycle_3" type="motorcycle" lane="715792677_0" pos="281.32" parking="1" started="6409.00" ended="6425.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_private_0" type="private" lane="715792677_0" pos="281.34" parking="1" started="6423.00" ended="6426.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_taxi_1" type="taxi" lane="715792677_0" pos="281.33" parking="1" started="6394.00" ended="6427.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_taxi_2" type="taxi" lane="715792677_0" pos="281.34" parking="1" started="6418.00" ended="6428.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_taxi_3" type="taxi" lane="715792677_0" pos="281.31" parking="1" started="6414.00" ended="6429.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_taxi_4" type="taxi" lane="715792677_0" pos="281.32" parking="1" started="6403.00" ended="6430.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_motorcycle_4" type="motorcycle" lane="715792677_0" pos="281.34" parking="1" started="6437.00" ended="6438.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_private_2" type="private" lane="-51691749#4_0" pos="143.77" parking="1" started="6434.00" ended="6441.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_private_3" type="private" lane="-51691749#4_0" pos="143.78" parking="1" started="6440.00" ended="6442.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_motorcycle_4" type="motorcycle" lane="-51691749#4_0" pos="143.79" parking="1" started="6464.00" ended="6465.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_private_0" type="private" lane="-51691749#4_0" pos="143.79" parking="1" started="6495.00" ended="6496.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_motorcycle_1" type="motorcycle" lane="715792677_0" pos="281.34" parking="1" started="6506.00" ended="6507.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_private_1" type="private" lane="715792677_0" pos="281.33" parking="1" started="6501.00" ended="6508.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_private_2" type="private" lane="715792677_0" pos="281.34" parking="1" started="6525.00" ended="6526.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_private_1" type="private" lane="977360507#0_0" pos="1136.46" parking="1" started="6554.00" ended="6555.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_motorcycle_0" type="motorcycle" lane="715792677_0" pos="281.32" parking="1" started="6557.00" ended="6558.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_private_3" type="private" lane="715792677_0" pos="281.34" parking="1" started="6553.00" ended="6559.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_private_4" type="private" lane="715792677_0" pos="281.34" parking="1" started="6549.00" ended="6560.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beigang_motorcycle_2" type="motorcycle" lane="715792677_0" pos="281.34" parking="1" started="6588.00" ended="6589.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_private_2" type="private" lane="977360507#0_0" pos="1136.47" parking="1" started="6625.00" ended="6626.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_bus_0" type="bus" lane="977360507#0_0" pos="1136.46" parking="1" started="6640.00" ended="6646.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_bus_1" type="bus" lane="977360507#0_0" pos="1136.46" parking="1" started="6645.00" ended="6647.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_bus_2" type="bus" lane="977360507#0_0" pos="1136.47" parking="1" started="6680.00" ended="6681.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_bus_3" type="bus" lane="977360507#0_0" pos="1136.47" parking="1" started="6662.00" ended="6682.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_bus_4" type="bus" lane="977360507#0_0" pos="1136.45" parking="1" started="6668.00" ended="6683.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_private_4" type="private" lane="977360507#0_0" pos="1136.46" parking="1" started="6675.00" ended="6684.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="beibi_motorcycle_3" type="motorcycle" lane="-51691749#4_0" pos="143.78" parking="1" started="6687.00" ended="6688.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_private_0" type="private" lane="977360507#0_0" pos="1136.46" parking="1" started="6721.00" ended="6722.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="dongchong_private_3" type="private" lane="977360507#0_0" pos="1136.47" parking="1" started="6791.00" ended="6792.00" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+</stops>

@@ -5,6 +5,7 @@ import ruamel.yaml
 __author__ = 'Nan Jia'
 __email__ = 'KoiGoko@outlook.com'
 
+
 def global_init(_cfg_path):
     evacuate = input_args(_cfg_path, 'evacuate')
     vehicle = input_args(_cfg_path, 'vehicle')

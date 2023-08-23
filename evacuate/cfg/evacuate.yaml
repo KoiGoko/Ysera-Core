@@ -24,8 +24,8 @@ settlements:
 #标准撤离点,撤离点一般设置为村庄,乡镇，核电站等
 #你可以自己定义撤离点，但是必须在模拟的路网当中存在这条路
 evacuates:
-  dongchong: '1163782197#2'
   beibi: '296185646#0'
+  dongchong: '1163782197#2'
   beigang: '1068471749#0'
   houshan: '1068471755#2'
   panqian: '1068471755#2'
@@ -46,14 +46,16 @@ evacuates:
 #标准情况下人口，比如平时，旅游淡季，请注意，人口请和撤离点一一对应
 #你可以根据模拟的实际情况自己设置人口
 default_population:
-  dongchong: 7500
-  beibi: 9201
-  beigang: 6412
-  houshan: 7689
-  panqian: 5234
-  xiahu: 9421
-  jinxie: 6875
-  liujin: 8101
+  jinxie: 687
+  liujin: 810
+  dongchong: 750
+  beibi: 920
+  beigang: 641
+  houshan: 768
+  panqian: 523
+  xiahu: 942
+
+
 
 
 #-------------------------------------------------------------------------------#
@@ -64,43 +66,34 @@ default_population:
 #本表只考虑私人车辆，公共救援车辆另有设置
 #你可以根据自己的实际模拟情况自己定义撤离点的车辆的类型，车辆类型必须是sumo当中存在的。
 vehicle_number:
-  dongchong:
-    private: 5
-    bus: 5
-  beibi:
-    private: 5
-    motorcycle: 5
-  beigang:
-    private: 5
-    motorcycle: 5
-    taxi: 5
-  houshan:
-    private: 5
-    motorcycle: 5
-    taxi: 5
   panqian:
     private: 5
-    motorcycle: 5
+    taxi: 5
+  beibi:
+    private: 5
+  dongchong:
+    private: 5
+  houshan:
+    private: 5
+    taxi: 5
+  beigang:
+    private: 5
     taxi: 5
   xiahu:
     private: 5
-    motorcycle: 5
     taxi: 5
   jinxie:
     private: 5
-    motorcycle: 5
     taxi: 5
   liujin:
     private: 5
-    motorcycle: 5
     taxi: 5
-    bus: 5
 evacuation_order:
-  dongchong: 1
+  beigang: 5
   beibi: 2
-  beigang: 3
+  dongchong: 3
   houshan: 4
-  panqian: 5
+  panqian: 1
   xiahu: 6
   jinxie: 7
   liujin: 8
@@ -111,13 +104,15 @@ evacuation_delay: 10
 
 #公共车辆点
 public_position:
-  xiaofang: -871617350#0
-  dianchang: -978658158#4
+  xiaofang: '-871617350#0'
+  dianchang: '-978658158#4'
+  dianchang2: '1163782197#2'
 
 #公共车辆撤离到达点
 arrival_position:
   xiaofang: 福宁中学
   dianchang: 霞浦县第六小学
+  dianchang2: 福宁中学
 
 
 
@@ -132,8 +127,8 @@ arrival_position:
 
 #私家车撤离路线，你可以随意指定
 routes:
-  dongchong: 霞浦第十八中学
   beibi: 霞浦县第六小学
+  dongchong: 霞浦第十八中学
   beigang: 霞浦县第四小学
   houshan: 霞浦县第一中学
   panqian: 福宁中学
@@ -148,23 +143,37 @@ public_routes:
     dongchong:
       bus: 6
       taxi: 6
+      moped: 5
+      private: 5
+      hov: 1
     beibi:
       moped: 6
+      bus: 10
   dianchang:
     dongchong:
       bus: 6
       taxi: 6
     beibi:
       moped: 6
+      private: 6
+  dianchang2:
+    dongchong:
+      bus: 6
+      taxi: 6
+      private: 5
+    beibi:
+      moped: 6
+      private: 6
+      taxi: 8
+
+
 
 
 #-------------------------------------------------------------------------------#
 #------------------------------------end----------------------------------------#
 #-------------------------------------------------------------------------------#
 
-#撤离情况全局检测时间
-#这个时间是指在这个时间之后，我会检测撤离情况，如果撤离情况不好，我会进行调度
-step_frequency: 100
+
 
 #选择撤离出行分布的时间分布
 #1. 泊松分布
@@ -176,9 +185,11 @@ step_frequency: 100
 evacuate_distribution: 3
 
 need_distribution:
-- beigang
-- houshan
 - panqian
+- beibi
+- dongchong
+- houshan
+- beigang
 - xiahu
 - jinxie
 - liujin

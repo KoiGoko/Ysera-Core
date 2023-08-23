@@ -2,12 +2,22 @@ from evacuate.src.utils import input_args
 import os
 import ruamel.yaml
 
+__author__ = 'Nan Jia'
+__email__ = 'KoiGoko@outlook.com'
 
 def global_init(_cfg_path):
     evacuate = input_args(_cfg_path, 'evacuate')
     vehicle = input_args(_cfg_path, 'vehicle')
 
     default_population = evacuate['default_population']
+    evacuation_order = evacuate['evacuation_order']
+
+    # 根据 evacuation_order 中的顺序进行排序
+    default_population = sorted(default_population.items(), key=lambda x: evacuation_order[x[0]])
+
+    # 将排序后的结果转换为字典
+    default_population = dict(default_population)
+
     vehicle_number = evacuate['vehicle_number']
     vehicle_capacity = vehicle['vehicle_capacity']
     修正之后的车辆数量 = {}
@@ -33,6 +43,8 @@ def global_init(_cfg_path):
 
     with open(os.path.join(_cfg_path, 'evacuate.yaml'), 'r', encoding='utf-8') as file:
         yaml = ruamel.yaml.YAML()
+        # 保留yaml字符串的单引号
+        yaml.preserve_quotes = True
         evacuate_yaml = yaml.load(file)
 
     # 替换整个 new_vehicle_numbers 部分
@@ -49,4 +61,4 @@ def global_init(_cfg_path):
 
 
 if __name__ == '__main__':
-    global_init('全局初始化')
+    global_init(r'D:\Ysera\Ysera-Core\evacuate\cfg')

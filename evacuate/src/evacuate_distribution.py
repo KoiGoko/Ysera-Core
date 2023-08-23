@@ -1,6 +1,4 @@
 import numpy as np
-import pandas as pd
-import pandas as pd
 
 __author__ = 'Nan Jia'
 __email__ = 'KoiGoko@outlook.com'
@@ -51,6 +49,10 @@ def truncated_exponential_distribution(count, lambd=1, lower=0, upper=10):
     # 对数组进行截断或裁剪
     truncated_array = np.clip(exponential_array, lower, upper)
     return truncated_array
+
+
+def distribution_main():
+    pass
 
 
 if __name__ == '__main__':

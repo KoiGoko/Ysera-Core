@@ -19,3 +19,6 @@
 2023-08-10 16:21:18,089 ERROR: 行程文件写入错误：[Errno 2] No such file or directory: 'evacuate.yaml'
 2023-08-10 16:27:32,847 ERROR: 行程文件写入错误：[Errno 2] No such file or directory: 'evacuate.yaml'
 2023-08-14 09:24:37,841 ERROR: 行程文件写入错误：cannot serialize -474258045 (type int)
+2023-08-21 17:48:49,603 ERROR: 行程文件写入错误：'xindian'
+2023-08-23 10:15:39,470 ERROR: 行程文件写入错误：cannot access local variable 'trips_array' where it is not associated with a value
+2023-08-23 10:16:16,964 ERROR: 行程文件写入错误：cannot access local variable 'trips_array' where it is not associated with a value

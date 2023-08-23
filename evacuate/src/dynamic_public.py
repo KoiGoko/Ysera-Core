@@ -51,7 +51,17 @@ def pro_remain_population():
 
     # 贪心策略开始，默认策略是会让车辆尽可能多的搭载人数，然后尽可能少进行来回的往返
     vehicle_capacity_order = sorted(vehicle_capacity.keys(), key=lambda x: vehicle_capacity[x], reverse=True)
+
     tags = {}
+    for one_k, one_v in one_population.items():
+        if default_population[one_k] < one_v:
+            print(f'请注意，公共车辆派遣策略大于了撤离点‘{one_k}’的人口数量, '
+                  f'派遣策略最大可以撤离‘{one_v}’人, '
+                  f'超出撤离点‘{one_v - default_population[one_k]}’人')
+
+            print('程序会根据目前的公共车辆分配策略正常运行')
+            return tags
+
     for k, v in default_population.items():
         tag = {}
 
@@ -98,4 +108,5 @@ def dynamic_public(cfg_path):
 
 
 if __name__ == '__main__':
+    dynamic_public(r'D:\Ysera\Ysera-Core\evacuate\cfg')
     print('公共车辆行程分配策略模块')

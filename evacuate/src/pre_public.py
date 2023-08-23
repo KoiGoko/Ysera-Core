@@ -147,85 +147,98 @@ def generate_public_trips(paths):
 
     stop_template = {"edge": "", "parking": "true", "duration": "0"}
     start = 20
-    try:
-        for file in files:
-            tree = ET.parse(file)
-            root = tree.getroot()
-            vehicle_type = root.find('vType').get('vClass')
+    for file in files:
+        tree = ET.parse(file)
+        root = tree.getroot()
+        vehicle_type = root.find('vType').get('vClass')
 
-            # 获取分配策略
-            tags_dy = dynamic_public(cfg_path)
+        # 获取分配策略
+        tags_dy = dynamic_public(cfg_path)
 
-            for route in routes:
-                for k, v in route['vehicle'].items():
-                    if vehicle_type == k:
-                        route1 = route['route']
-                        trips_array, end, depart = init_public_trips(vehicle_type, v, route1, start)
-                        start = depart
+        for route in routes:
+            for k, v in route['vehicle'].items():
+                if vehicle_type == k:
+                    route1 = route['route']
+                    trips_array, end, depart = init_public_trips(vehicle_type, v, route1, start)
+                    start = depart
 
-                        element_trip = 'trip'
+                    element_trip = 'trip'
 
-                        # 对每一个element进行操作
-                        for j, element in enumerate(trips_array):
-                            stop_template = stop_template.copy()
-                            stop_template['edge'] = evacuate['evacuates'][end]
+                    # 对每一个element进行操作
+                    for j, element in enumerate(trips_array):
+                        stop_template = stop_template.copy()
+                        stop_template['edge'] = evacuate['evacuates'][end]
 
-                            element['id'] = element['id'] + '_' + end
+                        element['id'] = element['id'] + '_' + end
 
-                            trip_point = ET.SubElement(root, element_trip, attrib=element)
+                        trip_point = ET.SubElement(root, element_trip, attrib=element)
 
-                            if end in tags_dy.keys():
-                                for pa, va in tags_dy[end].items():
-                                    if pa == 'all':
-                                        for i in range(va - 1):
-                                            ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
+                        if end in tags_dy.keys():
+                            for pa, va in tags_dy[end].items():
+                                if pa == 'all':
+                                    for i in range(va - 1):
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
 
-                                            stop_template1 = stop_template.copy()
+                                        stop_template1 = stop_template.copy()
 
-                                            # 需要到达的终点
-                                            stop_template1['edge'] = element['to']
-                                            ET.SubElement(trip_point, "stop", attrib=stop_template1)
+                                        # 需要到达的终点
+                                        stop_template1['edge'] = element['to']
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template1)
 
-                                    if pa == k + '_all':
-                                        while (va - 1) > 0 and k == pa.split('_')[0]:
-                                            trip_point = ET.SubElement(root, element_trip, attrib=element)
-                                            ET.SubElement(trip_point, "stop", attrib=stop_template)
+                                if pa == k + '_all':
+                                    while (va - 1) > 0 and k == pa.split('_')[0]:
+                                        trip_point = ET.SubElement(root, element_trip, attrib=element)
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template)
 
-                                            stop_template = stop_template.copy()
+                                        stop_template = stop_template.copy()
 
-                                            # 需要到达的终点
-                                            stop_template['edge'] = element['to']
-                                            ET.SubElement(trip_point, "stop", attrib=stop_template)
-                                            va -= 1
+                                        # 需要到达的终点
+                                        stop_template['edge'] = element['to']
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template)
+                                        va -= 1
 
-                                    if pa == k:
-                                        if j < va and k == pa:
-                                            ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
+                                if pa == k:
+                                    if j < va and k == pa:
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
 
-                                            stop_template1 = stop_template.copy()
+                                        stop_template1 = stop_template.copy()
 
-                                            # 需要到达的终点
-                                            stop_template1['edge'] = element['to']
-                                            ET.SubElement(trip_point, "stop", attrib=stop_template1)
+                                        # 需要到达的终点
+                                        stop_template1['edge'] = element['to']
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template1)
 
-                            # 需要到达的撤离点
-                            ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
+                        # 需要到达的撤离点
+                        ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
 
-                            stop_template1 = stop_template.copy()
+                        stop_template1 = stop_template.copy()
 
-                            # 需要到达的终点
-                            stop_template1['edge'] = element['to']
-                            ET.SubElement(trip_point, "stop", attrib=stop_template1)
+                        # 需要到达的终点
+                        stop_template1['edge'] = element['to']
+                        ET.SubElement(trip_point, "stop", attrib=stop_template1)
 
-                        # 标准化xml
-                        pretty_xml_str = standardization_xml(root)
+                    # 标准化xml
+                    pretty_xml_str = standardization_xml(root)
 
-                        # 写入文件
-                        with open(file, "w", encoding="utf-8") as f:
-                            f.write(pretty_xml_str)
+                    # 写入文件
+                    with open(file, "w", encoding="utf-8") as f:
+                        f.write(pretty_xml_str)
 
-    except Exception as e:
-        logging.error("行程文件写入错误：{}".format(e))
+
+def public_run(_cfg_path, _xml_path):
+    # 配置初始化
+    init_public_cfg(_cfg_path)
+
+    # 初始化公共车辆调度
+    init_public_routes('custom')
+
+    # 计算公共车辆类型
+    public_types = cal_public_type('custom')
+
+    # 初始化公共车辆行程文件
+    init_public_xml(_xml_path, public_types)
+
+    # 生成公共车辆行程文件
+    generate_public_trips(_xml_path)
 
 
 if __name__ == '__main__':

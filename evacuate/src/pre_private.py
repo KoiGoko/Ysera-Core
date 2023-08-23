@@ -123,7 +123,11 @@ def generate_private_routes():
 
     for k, v in routes.items():
         route_info = {k: settle_points[v], 'priority': evacuate['evacuation_order'][k]}
+
         _route_infos.append(route_info)
+
+    # 根据 priority 进行排序
+    _route_infos = sorted(_route_infos, key=lambda x: x['priority'])
 
     return _route_infos
 
@@ -131,6 +135,7 @@ def generate_private_routes():
 # 装配每一辆车的行程
 def generate_private_trips(vehicle_type, vehicle_info, routes):
     trips_array = []
+    print(vehicle_info)
     evacuates = evacuate['evacuates']
     distribution = evacuate['evacuate_distribution']
 
@@ -146,6 +151,7 @@ def generate_private_trips(vehicle_type, vehicle_info, routes):
     evacuation_delay = evacuate['evacuation_delay']
 
     for k, v in vehicle_info.items():
+        print(k, v)
 
         start = evacuates[k]
         for route in routes:
@@ -210,6 +216,19 @@ def generate_trips(paths):
 
     except Exception as e:
         logging.error("行程文件写入错误：{}".format(e))
+
+
+def private_run(_cfg_path, _xml_path):
+    init_private_cfg(_cfg_path)
+
+    # 获取私家车车辆类型
+    private_types = cal_private_trips_type()
+
+    # 初始化私家车行程文件
+    init_trips(_xml_path, private_types)
+
+    # 生成私家车行程文件
+    generate_trips(_xml_path)
 
 
 if __name__ == '__main__':

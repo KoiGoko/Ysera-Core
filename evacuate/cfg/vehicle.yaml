@@ -4,11 +4,12 @@
 #你可以在这里添加不同的车辆的载客量
 vehicle_capacity:
   private: 5
-  motorcycle: 2
   moped: 3
   taxi: 4
-  special: 8
   bus: 50
+  motorcycle: 40
+  hov: 30
+
 
 #车辆速度表，车辆的速度，比如公交车，私家车，摩托车，三轮车，出租车等，车辆速度可能会因为天气
 #你可以添加不同的车辆的速度
@@ -21,6 +22,7 @@ vehicle_speed:
   taxi: 80
   special: 40
   moped: 40
+  hov: 40
 
 
 

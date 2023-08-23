@@ -6,6 +6,9 @@ from evacuate.src.utils import input_args
 import os
 import netCDF4 as nc
 
+__author__ = 'Nan Jia'
+__email__ = 'KoiGoko@outlook.com'
+
 
 def process_xml(xml_string, last_position):
     xml_string = remove_comments(xml_string)
@@ -117,6 +120,7 @@ async def read_data(file_path, cfg_path):
             if os.path.exists(nc_path):
                 res_xr = nc.Dataset(nc_path, 'a')
                 length = res_xr.dimensions['timestep'].size
+                print('nc长度 ', length)
                 res_xr.variables['data'][:, :, length:length + res_array.shape[2]] = res_array
             else:
                 res_xr = nc.Dataset(nc_path, 'w')
@@ -124,11 +128,13 @@ async def read_data(file_path, cfg_path):
                 res_xr.createDimension('value', 7)
                 res_xr.createDimension('vehicle', res_array.shape[0])
 
-                res_xr.createVariable('timestep', 'S1', ('timestep',))
-                res_xr.createVariable('value', 'S1', ('value',))
-                res_xr.createVariable('vehicle', 'S1', ('vehicle',))
+                # 请注意，这里的数据类型是'S40'，可以根据自己的数据类型的长度修改这里的值
+                # S40指的是最长可以表示40个字符的字符串
+                res_xr.createVariable('timestep', 'S40', ('timestep',))
+                res_xr.createVariable('value', 'S40', ('value',))
+                res_xr.createVariable('vehicle', 'S40', ('vehicle',))
 
-                array_xr = res_xr.createVariable('data', 'S1', ('vehicle', 'value', 'timestep'))
+                array_xr = res_xr.createVariable('data', 'S40', ('vehicle', 'value', 'timestep'))
 
                 array_xr[:] = res_array
 
@@ -148,6 +154,7 @@ async def main():
     res_file = nc.Dataset('res_xr.nc', 'r')
     print('nc长度', res_file.dimensions['timestep'].size)
     res_file.close()
+
 
 if __name__ == "__main__":
     if os.path.exists('res_xr.nc'):

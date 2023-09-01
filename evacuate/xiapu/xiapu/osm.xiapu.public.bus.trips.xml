@@ -1,115 +1,87 @@
 <?xml version="1.0" ?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
   <vType id="public_bus" vClass="bus" maxSpeed="60"/>
-  <trip id="xiaofang_bus_0_dongchong" type="public_bus" depart="20" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="xiaofang_bus_0_beibi" type="public_bus" depart="20" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+  </trip>
+  <trip id="xiaofang_bus_1_beibi" type="public_bus" depart="21" departLane="best" from="-871617350#0" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+  </trip>
+  <trip id="dianchang_bus_0_dongchong" type="public_bus" depart="22" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_1_dongchong" type="public_bus" depart="21" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_2_dongchong" type="public_bus" depart="22" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_3_dongchong" type="public_bus" depart="23" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_4_dongchong" type="public_bus" depart="24" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_5_dongchong" type="public_bus" depart="25" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_0_beibi" type="public_bus" depart="26" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_1_beibi" type="public_bus" depart="27" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_2_beibi" type="public_bus" depart="28" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_3_beibi" type="public_bus" depart="29" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_4_beibi" type="public_bus" depart="30" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_5_beibi" type="public_bus" depart="31" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_6_beibi" type="public_bus" depart="32" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_7_beibi" type="public_bus" depart="33" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_8_beibi" type="public_bus" depart="34" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="xiaofang_bus_9_beibi" type="public_bus" depart="35" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_bus_0_dongchong" type="public_bus" depart="36" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_bus_1_dongchong" type="public_bus" depart="37" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_bus_1_dongchong" type="public_bus" depart="23" departLane="best" from="-978658158#4" to="-51691749#4">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="-51691749#4" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_bus_2_dongchong" type="public_bus" depart="38" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_bus_2_dongchong" type="public_bus" depart="24" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_bus_3_dongchong" type="public_bus" depart="39" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_bus_3_dongchong" type="public_bus" depart="25" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_bus_4_dongchong" type="public_bus" depart="40" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_bus_4_dongchong" type="public_bus" depart="26" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_bus_5_dongchong" type="public_bus" depart="41" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang_bus_5_dongchong" type="public_bus" depart="27" departLane="best" from="-978658158#4" to="-51691749#4">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="-51691749#4" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_bus_0_dongchong" type="public_bus" depart="42" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_bus_0_dongchong" type="public_bus" depart="28" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_bus_1_dongchong" type="public_bus" depart="43" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_bus_1_dongchong" type="public_bus" depart="29" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_bus_2_dongchong" type="public_bus" depart="44" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_bus_2_dongchong" type="public_bus" depart="30" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_bus_3_dongchong" type="public_bus" depart="45" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_bus_3_dongchong" type="public_bus" depart="31" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_bus_4_dongchong" type="public_bus" depart="46" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_bus_4_dongchong" type="public_bus" depart="32" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_bus_5_dongchong" type="public_bus" depart="47" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_bus_5_dongchong" type="public_bus" depart="33" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>

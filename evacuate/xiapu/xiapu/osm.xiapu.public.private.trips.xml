@@ -1,91 +1,95 @@
 <?xml version="1.0" ?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
   <vType id="public_private" vClass="private" maxSpeed="30"/>
-  <trip id="xiaofang_private_0_dongchong" type="public_private" depart="72" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="dianchang2_private_0_dongchong" type="public_private" depart="51" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_private_1_dongchong" type="public_private" depart="73" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="dianchang2_private_1_dongchong" type="public_private" depart="52" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_private_2_dongchong" type="public_private" depart="74" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="dianchang2_private_2_dongchong" type="public_private" depart="53" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_private_3_dongchong" type="public_private" depart="75" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="dianchang2_private_3_dongchong" type="public_private" depart="54" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="xiaofang_private_4_dongchong" type="public_private" depart="76" departLane="best" from="-871617350#0" to="543863877#1">
+  <trip id="dianchang2_private_4_dongchong" type="public_private" depart="55" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang_private_0_beibi" type="public_private" depart="77" departLane="best" from="-978658158#4" to="-51691749#4">
+  <trip id="dianchang2_private_0_beibi" type="public_private" depart="56" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_private_1_beibi" type="public_private" depart="78" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_private_2_beibi" type="public_private" depart="79" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_private_3_beibi" type="public_private" depart="80" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_private_4_beibi" type="public_private" depart="81" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang_private_5_beibi" type="public_private" depart="82" departLane="best" from="-978658158#4" to="-51691749#4">
-    <stop edge="296185646#0" parking="true" duration="0"/>
-    <stop edge="-51691749#4" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang2_private_0_dongchong" type="public_private" depart="83" departLane="best" from="1163782197#2" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang2_private_1_dongchong" type="public_private" depart="84" departLane="best" from="1163782197#2" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang2_private_2_dongchong" type="public_private" depart="85" departLane="best" from="1163782197#2" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang2_private_3_dongchong" type="public_private" depart="86" departLane="best" from="1163782197#2" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang2_private_4_dongchong" type="public_private" depart="87" departLane="best" from="1163782197#2" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-  <trip id="dianchang2_private_0_beibi" type="public_private" depart="88" departLane="best" from="1163782197#2" to="543863877#1">
     <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_private_1_beibi" type="public_private" depart="89" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_private_1_beibi" type="public_private" depart="57" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_private_2_beibi" type="public_private" depart="90" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_private_2_beibi" type="public_private" depart="58" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_private_3_beibi" type="public_private" depart="91" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_private_3_beibi" type="public_private" depart="59" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_private_4_beibi" type="public_private" depart="92" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_private_4_beibi" type="public_private" depart="60" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>
-  <trip id="dianchang2_private_5_beibi" type="public_private" depart="93" departLane="best" from="1163782197#2" to="543863877#1">
+  <trip id="dianchang2_private_5_beibi" type="public_private" depart="61" departLane="best" from="1163782197#2" to="543863877#1">
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
+    <stop edge="296185646#0" parking="true" duration="0"/>
+    <stop edge="543863877#1" parking="true" duration="0"/>
     <stop edge="296185646#0" parking="true" duration="0"/>
     <stop edge="543863877#1" parking="true" duration="0"/>
   </trip>

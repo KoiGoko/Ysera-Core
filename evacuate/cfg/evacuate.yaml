@@ -48,8 +48,8 @@ evacuates:
 default_population:
   jinxie: 687
   liujin: 810
-  dongchong: 750
-  beibi: 920
+  dongchong: 800
+  beibi: 1069
   beigang: 641
   houshan: 768
   panqian: 523
@@ -141,21 +141,15 @@ routes:
 public_routes:
   xiaofang:
     dongchong:
-      bus: 6
       taxi: 6
       moped: 5
-      private: 5
-      hov: 1
     beibi:
       moped: 6
-      bus: 10
+      bus: 2
   dianchang:
     dongchong:
       bus: 6
       taxi: 6
-    beibi:
-      moped: 6
-      private: 6
   dianchang2:
     dongchong:
       bus: 6

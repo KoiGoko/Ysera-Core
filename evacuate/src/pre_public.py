@@ -187,14 +187,14 @@ def generate_public_trips(paths):
 
                                 if pa == k + '_all':
                                     while (va - 1) > 0 and k == pa.split('_')[0]:
-                                        trip_point = ET.SubElement(root, element_trip, attrib=element)
-                                        ET.SubElement(trip_point, "stop", attrib=stop_template)
 
-                                        stop_template = stop_template.copy()
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
+
+                                        stop_template1 = stop_template.copy()
 
                                         # 需要到达的终点
-                                        stop_template['edge'] = element['to']
-                                        ET.SubElement(trip_point, "stop", attrib=stop_template)
+                                        stop_template1['edge'] = element['to']
+                                        ET.SubElement(trip_point, "stop", attrib=stop_template1)
                                         va -= 1
 
                                 if pa == k:

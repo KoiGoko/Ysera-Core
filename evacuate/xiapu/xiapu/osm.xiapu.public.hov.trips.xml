@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-  <vType id="public_hov" vClass="hov" maxSpeed="40"/>
-  <trip id="xiaofang_hov_0_dongchong" type="public_hov" depart="48" departLane="best" from="-871617350#0" to="543863877#1">
-    <stop edge="1163782197#2" parking="true" duration="0"/>
-    <stop edge="543863877#1" parking="true" duration="0"/>
-  </trip>
-</routes>

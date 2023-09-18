@@ -156,6 +156,7 @@ def generate_public_trips(paths):
         tags_dy = dynamic_public(cfg_path)
 
         for route in routes:
+
             for k, v in route['vehicle'].items():
                 if vehicle_type == k:
                     route1 = route['route']
@@ -173,8 +174,14 @@ def generate_public_trips(paths):
 
                         trip_point = ET.SubElement(root, element_trip, attrib=element)
 
+                        no_flag = True
+
                         if end in tags_dy.keys():
                             for pa, va in tags_dy[end].items():
+
+                                if pa == 'all' and va == 0:
+                                    no_flag = False
+
                                 if pa == 'all':
                                     for i in range(va - 1):
                                         ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
@@ -208,13 +215,15 @@ def generate_public_trips(paths):
                                         ET.SubElement(trip_point, "stop", attrib=stop_template1)
 
                         # 需要到达的撤离点
-                        ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
+                        if no_flag:
+                            ET.SubElement(trip_point, "stop", attrib=stop_template.copy())
 
-                        stop_template1 = stop_template.copy()
+                            stop_template1 = stop_template.copy()
 
-                        # 需要到达的终点
-                        stop_template1['edge'] = element['to']
-                        ET.SubElement(trip_point, "stop", attrib=stop_template1)
+                            # 需要到达的终点
+                            stop_template1['edge'] = element['to']
+                            ET.SubElement(trip_point, "stop", attrib=stop_template1)
+                            no_flag = True
 
                     # 标准化xml
                     pretty_xml_str = standardization_xml(root)

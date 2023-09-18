@@ -81,7 +81,7 @@ async def read_data(file_path, cfg_path):
     last_position = 0
     incomplete_xml = ""
     end = False
-    read_count = 4096 * 10
+    read_count = 4096 * 200
     veh = generate_initArray(cfg_path)
     with open(file_path, 'r') as f:
         while not end:
@@ -89,8 +89,8 @@ async def read_data(file_path, cfg_path):
             data = incomplete_xml + f.read(read_count)
 
             if data.rfind("</timestep>") == -1:
-                await asyncio.sleep(0.01)
-                read_count += 4096 * 10
+                await asyncio.sleep(0.0001)
+                read_count += 4096 * 200
                 continue
 
             if last_position == 0:
@@ -146,14 +146,14 @@ async def read_data(file_path, cfg_path):
 
 async def main():
     # fcd路径
-    xml_file = r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu\fcd.xml'
+    xml_file = r'F:\厂址应急道路专题数据\10km工作日晴昼\fcd.xml'
     # 配置文件路径
-    cfg_path = r'D:\Ysera\Ysera-Core\evacuate\cfg'
+    cfg_path = r'F:\厂址应急道路专题数据\10km工作日晴昼'
     await read_data(xml_file, cfg_path)
 
-    res_file = nc.Dataset('res_xr.nc', 'r')
-    print('nc长度', res_file.dimensions['timestep'].size)
-    res_file.close()
+    # res_file = nc.Dataset(r'D:\Ysera\Ysera-Core\evacuate\src\res\5km晴昼.nc', 'r')
+    # print('nc长度', res_file.dimensions['timestep'].size)
+    # res_file.close()
 
 
 if __name__ == "__main__":

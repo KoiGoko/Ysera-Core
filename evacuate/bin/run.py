@@ -8,9 +8,9 @@ __email__ = 'KoiGoko@outlook.com'
 
 if __name__ == '__main__':
     # 配置参数路径
-    cfg_path = r'D:\Ysera\Ysera-Core\evacuate\cfg'
+    cfg_path = r'F:\厂址应急道路专题数据\10km节假日雨昼'
     # 模拟文件路径
-    xml_path = r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu'
+    xml_path = r'F:\厂址应急道路专题数据\10km节假日雨昼'
 
     # 初始化全局配置
     global_init(cfg_path)

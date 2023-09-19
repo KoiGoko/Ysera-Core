@@ -1,19 +1,19 @@
 import numpy as np
 import pandas as pd
 
-import matplotlib
 import matplotlib.pyplot as plt
 
 import seaborn as sns
-import seaborn.objects as so
 import os
 import glob
 
 
-def process_evacuate_graph(path, graph_title):
+def process_evacuate_graph(path, graph_title, output_select):
     evacuate_path = os.path.join(path, 'evacuate.xlsx')
     evacuate_datas = pd.read_excel(evacuate_path, sheet_name=None, index_col=0)
     evacuate_names = list(evacuate_datas.keys())
+
+    max_start_time = max([df.iloc[3, -1] for df in evacuate_datas.values()])
 
     sns.set()
 
@@ -41,9 +41,12 @@ def process_evacuate_graph(path, graph_title):
 
     plt.figure(figsize=(10, 6))
     for name in evacuate_names:
-        sums = evacuate_datas[name].loc['sum'].values
-        pops = evacuate_datas[name].loc['start_times'].values / 3600
-        sns.lineplot(x=pops, y=sums, label=zh_name[name])
+        pops = evacuate_datas[name].loc['sum'].values
+        times = evacuate_datas[name].loc['start_times'].values / 3600
+        pops = np.append(pops, pops[-1])
+        times = np.append(times, max_start_time / 3600)
+
+        sns.lineplot(x=times, y=pops, label=zh_name[name])
 
     plt.rcParams['font.sans-serif'] = ['SimHei']
     plt.rcParams['axes.unicode_minus'] = False
@@ -53,10 +56,18 @@ def process_evacuate_graph(path, graph_title):
     plt.ylabel('撤离人数')
     plt.legend(title='待撤离点')
 
-    plt.savefig(os.path.join(path, 'evacuate_' + graph_title + '.png'))
+    ax = plt.gca()
+    ax.legend(loc='upper left')
+
+    if output_select == 1:
+        graph_path = os.path.join(os.path.dirname(path), '图表')
+        os.makedirs(graph_path, exist_ok=True)
+        plt.savefig(os.path.join(graph_path, 'evacuate_' + graph_title + '.png'))
+    else:
+        plt.savefig(os.path.join(path, 'evacuate_' + graph_title + '.png'))
 
 
-def process_settlement_graph(path, graph_title):
+def process_settlement_graph(path, graph_title, output_select):
     settlement_path = os.path.join(path, 'settlement.xlsx')
     evacuate_path = os.path.join(path, 'evacuate.xlsx')
     evacuate_names = list(pd.read_excel(evacuate_path, sheet_name=None, index_col=0).keys())
@@ -68,13 +79,18 @@ def process_settlement_graph(path, graph_title):
 
     settlement_names = list(settlement_datas.keys())
 
+    max_start_time = max([df.iloc[3, -1] for df in settlement_datas.values()])
+
     sns.set()
 
     plt.figure(figsize=(10, 6))
     for name in settlement_names:
-        sums = settlement_datas[name].loc['starts'].values
-        pops = settlement_datas[name].loc['start_times'].values / 3600
-        sns.lineplot(x=pops, y=sums, label=name)
+        pops = settlement_datas[name].loc['starts'].values
+        times = settlement_datas[name].loc['start_times'].values / 3600
+        pops = np.append(pops, pops[-1])
+        times = np.append(times, max_start_time / 3600)
+
+        sns.lineplot(x=times, y=pops, label=name)
 
     plt.rcParams['font.sans-serif'] = ['SimHei']
     plt.rcParams['axes.unicode_minus'] = False
@@ -84,7 +100,15 @@ def process_settlement_graph(path, graph_title):
     plt.ylabel('到达安置点人数')
     plt.legend(title='安置点')
 
-    plt.savefig(os.path.join(path, 'settlement_' + graph_title + '.png'))
+    ax = plt.gca()
+    ax.legend(loc='upper left')
+
+    if output_select == 1:
+        graph_path = os.path.join(os.path.dirname(path), '图表')
+        os.makedirs(graph_path, exist_ok=True)
+        plt.savefig(os.path.join(graph_path, 'settlement_' + graph_title + '.png'))
+    else:
+        plt.savefig(os.path.join(path, 'settlement_' + graph_title + '.png'))
 
 
 def process_road_graph(road_id):
@@ -92,10 +116,15 @@ def process_road_graph(road_id):
 
 
 if __name__ == '__main__':
-    paths = glob.glob(r'F:\厂址应急道路专题数据\*')
+    paths = glob.glob(r'E:\厂址应急道路专题数据\*')
+
+    output_select = 1
 
     for path in paths:
         graph_title = os.path.basename(path)
 
-        process_evacuate_graph(path, graph_title)
-        process_settlement_graph(path, graph_title)
+        if path.endswith('图表'):
+            continue
+
+        process_evacuate_graph(path, graph_title, output_select)
+        process_settlement_graph(path, graph_title, output_select)

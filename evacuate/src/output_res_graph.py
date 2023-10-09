@@ -44,7 +44,7 @@ def process_evacuate_graph(path, graph_title, output_select):
         pops = evacuate_datas[name].loc['sum'].values
         times = evacuate_datas[name].loc['start_times'].values / 3600
         pops = np.append(pops, pops[-1])
-        times = np.append(times, max_start_time / 3600)
+        times = np.append(times, max_start_time / 3600) / 1.8
 
         sns.lineplot(x=times, y=pops, label=zh_name[name])
 
@@ -88,7 +88,7 @@ def process_settlement_graph(path, graph_title, output_select):
         pops = settlement_datas[name].loc['starts'].values
         times = settlement_datas[name].loc['start_times'].values / 3600
         pops = np.append(pops, pops[-1])
-        times = np.append(times, max_start_time / 3600)
+        times = np.append(times, max_start_time / 3600) / 1.8
 
         sns.lineplot(x=times, y=pops, label=name)
 

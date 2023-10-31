@@ -1,10 +1,9 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-import xml.etree.ElementTree as ET
-import os
-import numpy as np
 import glob
+import os
+import xml.etree.ElementTree as ET
+
+import numpy as np
+import pandas as pd
 
 __author__ = 'Nan Jia'
 __email__ = 'KoiGoko@outlook.com'
@@ -171,7 +170,7 @@ def modify_last_sum(evacuate_path, cfg_path):
 
 if __name__ == '__main__':
 
-    paths = glob.glob(r'F:\厂址应急道路专题数据\*')
+    paths = glob.glob(r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu')
 
     for path in paths:
         result_path = path

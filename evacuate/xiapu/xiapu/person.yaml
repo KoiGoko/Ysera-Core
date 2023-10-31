@@ -1,0 +1,8 @@
+#撤离人员配置
+
+person_points:
+  nuclear: 7463
+  biological: 7463
+  chemical: 7463
+  earthquake: 7463
+

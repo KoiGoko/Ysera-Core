@@ -36,7 +36,15 @@ def process_evacuate_graph(path, graph_title, output_select):
         'dajing': '大京村',
         'zucuo': '祖厝村',
         'chuanlu': '传胪村',
-        'changchun': '长春镇'
+        'changchun': '长春镇',
+        'liujin': '林进村',
+        'beibi': '北壁村',
+        'dongchong': '东冲村',
+        'xiahu': '下湖村',
+        'houshan': '后山村',
+        'panqian': '潘前村',
+        'beigang': '北港村',
+        'jinxie': '金谢村',
     }
 
     plt.figure(figsize=(10, 6))
@@ -116,7 +124,7 @@ def process_road_graph(road_id):
 
 
 if __name__ == '__main__':
-    paths = glob.glob(r'E:\厂址应急道路专题数据\*')
+    paths = glob.glob(r'D:\Ysera\Ysera-Core\evacuate\xiapu\xiapu')
 
     output_select = 1
 

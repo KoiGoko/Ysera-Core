@@ -77,7 +77,15 @@ def get_distribute(count, distribute_type):
     pass
 
 
+def get_all_lanes(net_xml_path):
+    tree = ET.parse(net_xml_path)
+    root = tree.getroot()
+    lanes = root.findall('edge/lane')
+    return lanes
+
+
 if __name__ == '__main__':
-    input_args(r'D:\Ysera\Ysera-Core\evacuate\cfg', 'all')
-    # get_similar_type_count(r'E:\Ysera-Core\evacuate\cfg', 'bus')
-    print('工具函数模块')
+    get_all_lanes(r'D:\ysera\Ysera-Core\evacuate\xiapu\xiapu\osm.net.xml\osm.net.xml')
+    # input_args(r'D:\Ysera\Ysera-Core\evacuate\cfg', 'all')
+    # # get_similar_type_count(r'E:\Ysera-Core\evacuate\cfg', 'bus')
+    # print('工具函数模块')

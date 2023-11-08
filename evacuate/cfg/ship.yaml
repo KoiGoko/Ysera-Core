@@ -1,0 +1,15 @@
+# 海上撤离模拟模块参数
+ship_number: 10
+
+ship_start_position:
+  beibi: 5432
+
+ship_arrival_position:
+  beibi: 5432
+
+ship_capacity:
+  5432
+
+ship_max_speed:
+  5432
+

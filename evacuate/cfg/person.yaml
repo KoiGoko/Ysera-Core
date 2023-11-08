@@ -1,8 +1,24 @@
-#撤离人员配置
+#人员撤离模拟模块参数
+person_outdoor_positions:
+  beibi: 5432
+  nanjia: 43
 
-person_points:
-  nuclear: 7463
-  biological: 7463
-  chemical: 7463
-  earthquake: 7463
+person_home_positions:
+  beibi: 5432
+  nanjia: 43
+
+person_work_positions:
+  beibi: 5432
+  nanjia: 43
+
+person_max_speed:
+    5432
+
+
+
+
+
+
+
+
 

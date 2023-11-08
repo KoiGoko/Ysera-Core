@@ -1,0 +1,17 @@
+#公共交通前置环境
+city: '深圳'
+
+city_scope:
+  left_boundary: [ 113.752, 22.754 ],
+  right_boundary: [ 114.514, 22.754 ],
+  top_boundary: [ 113.752, 22.754 ],
+  bottom_boundary: [ 113.752, 22.396 ]'
+
+traffic_light:
+  beibi_traffic_light: ['lane01', 'lane02', 'lane03', 'lane04']
+
+emergency_hidden_position:
+  beibi: [ 113.752, 22.754 ]
+  
+
+

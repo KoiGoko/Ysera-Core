@@ -8,10 +8,18 @@ city_scope:
   bottom_boundary: [ 113.752, 22.396 ]'
 
 traffic_light:
-  beibi_traffic_light: ['lane01', 'lane02', 'lane03', 'lane04']
+  beibi_traffic_light: ['lane01', 'lane02', 'lane03', 'lane04'],
+  nanjia_traffic_light: [ 'lane01', 'lane02', 'lane03' ],
 
-emergency_hidden_position:
-  beibi: [ 113.752, 22.754 ]
+bus_station:
+  beibi: [ 'station01', 'station02', 'station03', 'station04' ],
+  nanjia: [ 'station01', 'station02', 'station03', 'station04' ],
+
+subway_station:
+  beibi: [ 'station01', 'station02', 'station03', 'station04' ],
+  nanjia: [ 'station01', 'station02', 'station03', 'station04' ],
+
+
   
 
 

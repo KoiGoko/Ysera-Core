@@ -1,0 +1,16 @@
+#核事故下应急撤离策略
+
+emergency_road:
+  road_1: ['lane01', 'lane02', 'lane03', 'lane04'],
+
+emergency_traffic_light:
+  road_light_1: ['lane01', 'lane02', 'lane03', 'lane04'],
+
+emergency_hidden_position:
+  road_hidden_1: [ 113.752, 22.754 ]
+
+emergency_hidden_duration:
+  road_hidden_1: 12
+
+emergency_response_duration:
+  road_hidden_1: 12

@@ -1,17 +1,51 @@
 # 轨道交通撤离模块参数
 tram_number: 10
 
-tram_start_position:
-  beibi: 5432
+tram_stations:
+  beibi: 5432,
+  beibi1: 5432,
+  beibi2: 5432,
+  beibi3: 5432,
+  beibi4: 5432,
+  beibi5: 5432,
+  beibi6: 5432,
+  beibi7: 5432,
+  beibi8: 5432,
 
-tram_arrival_position:
-  beibi: 5432
+tram_lines:
+  beibi1: [ beibi, beibi1, beibi2, beibi3, beibi4, beibi5, beibi6, beibi7, beibi8, beibi ],
+  beibi2: [ beibi, beibi1, beibi2, beibi3, beibi4, beibi5, beibi6, beibi7, beibi8, beibi ],
 
 tram_capacity:
   5432
 
 tram_max_speed:
   5432
+
+tram_station_duration:
+  beibi: 5432,
+  beibi1: 5432,
+  beibi2: 5432,
+  beibi3: 5432,
+  beibi4: 5432,
+  beibi5: 5432,
+  beibi6: 5432,
+  beibi7: 5432,
+  beibi8: 5432,
+
+tram_start_data:
+  beibi: 5432,
+  beibi1: 5432,
+  beibi2: 5432,
+  beibi3: 5432,
+  beibi4: 5432,
+  beibi5: 5432,
+  beibi6: 5432,
+  beibi7: 5432,
+  beibi8: 5432,
+
+tram_end_data:
+  bei: 5432,
 
 
 
